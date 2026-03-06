@@ -1,0 +1,49 @@
+{
+	"Name": "Liu2020BETA",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "Non-commercial research use",
+	"Authors": [
+		"Bingchuan Liu",
+		"Xiaoshan Huang",
+		"Yijun Wang",
+		"Xiaogang Chen",
+		"Xiaorong Gao"
+	],
+	"Funding": [
+		"National Key Research and Development Program of China (No. 2017YFB1002505)",
+		"Strategic Priority Research Program of Chinese Academy of Sciences (No. XDB32040200)",
+		"Key Research and Development Program of Guangdong Province (No. 2018B030339001)",
+		"National Natural Science Foundation of China (Grant No. 61431007)"
+	],
+	"EthicsApprovals": [
+		"Ethics Committee of Tsinghua University, No. 20190002"
+	],
+	"ReferencesAndLinks": [
+		"http://bci.med.tsinghua.edu.cn/upload/liubingchuan/"
+	],
+	"DatasetDOI": "doi:10.3389/fnins.2020.00627",
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.4.3"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.3389/fnins.2020.00627",
+			"URL": "http://bci.med.tsinghua.edu.cn/upload/liubingchuan/"
+		}
+	],
+	"Keywords": [
+		"SSVEP",
+		"BCI",
+		"EEG",
+		"benchmark",
+		"JFPM"
+	],
+	"PublicationYear": 2020
+}
