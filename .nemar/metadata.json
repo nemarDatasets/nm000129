@@ -1,0 +1,101 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Bingchuan Liu": {},
+    "Xiaoshan Huang": {},
+    "Yijun Wang": {},
+    "Xiaogang Chen": {},
+    "Xiaorong Gao": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.3389/fnins.2020.00627",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000129",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000129",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Key Research and Development Program of China",
+      "award_number": "2017YFB1002505"
+    },
+    {
+      "funder_name": "Strategic Priority Research Program of Chinese Academy of Sciences",
+      "award_number": "XDB32040200"
+    },
+    {
+      "funder_name": "Key Research and Development Program of Guangdong Province",
+      "award_number": "2018B030339001"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "61431007"
+    }
+  ],
+  "title": "BETA SSVEP benchmark dataset",
+  "license": "Non-commercial research use",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "3.0 GB (72 files)"
+  ],
+  "formats": [
+    ".html",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "The BETA SSVEP benchmark dataset comprises EEG recordings from 70 healthy subjects performing a cued-spelling task using steady-state visual evoked potential (SSVEP) brain-computer interface paradigm. The dataset includes 64-channel EEG data sampled at 250 Hz with 40 visual stimulus frequencies ranging from 8.0 to 15.8 Hz, designed to support benchmarking of SSVEP classification algorithms. This derivative dataset provides preprocessed, epoched data with standardized evaluation protocols including leave-one-block-out cross-validation for within-subject assessment.",
+  "methods_description": "EEG data were acquired using a Synamps2 system (Neuroscan) with 64 electrodes in standard 1005 montage, referenced to Cz, at 250 Hz sampling rate. Stimuli consisted of visual flickers at 40 different frequencies (8.0-15.8 Hz) presented for 3-second trials. Preprocessing included notch filtering at 50 Hz using zero-phase FIR filters and bandpass filtering (3-100 Hz). Data were organized into 4 blocks of 160 trials per subject in offline mode with visual feedback.",
+  "keywords": [
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "benchmark dataset"
+    },
+    {
+      "term": "visual evoked potentials"
+    },
+    {
+      "term": "JFPM"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "speller"
+    },
+    {
+      "term": "cued-spelling"
+    },
+    {
+      "term": "BCI"
+    }
+  ],
+  "source_hash": "17d132de64b7299253c61bba6b6a3b785850176b2bcdc212a2003eed9e4c1c44"
+}
