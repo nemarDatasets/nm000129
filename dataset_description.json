@@ -1,5 +1,5 @@
 {
-	"Name": "Liu2020BETA",
+	"Name": "BETA SSVEP benchmark dataset",
 	"BIDSVersion": "1.9.0",
 	"HEDVersion": "8.4.0",
 	"DatasetType": "derivative",
@@ -23,7 +23,6 @@
 	"ReferencesAndLinks": [
 		"http://bci.med.tsinghua.edu.cn/upload/liubingchuan/"
 	],
-	"DatasetDOI": "doi:10.3389/fnins.2020.00627",
 	"GeneratedBy": [
 		{
 			"CodeURL": "https://github.com/NeuroTechX/moabb",
