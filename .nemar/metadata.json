@@ -1,6 +1,11 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
+  "title": "Liu2020 – BETA SSVEP benchmark dataset",
+  "description": "The BETA SSVEP benchmark dataset comprises 64-channel EEG recordings from 70 healthy subjects performing a 40-target cued-spelling brain-computer interface task using steady-state visual evoked potentials (SSVEP). Recorded in a naturalistic classroom environment with joint frequency and phase modulation stimuli, this dataset provides a realistic benchmark for SSVEP-BCI applications with frequencies ranging from 8.0 to 15.8 Hz (0.2 Hz step) and sampling at 250 Hz.",
+  "methods_description": "EEG data were acquired using a Synamps2 amplifier (Neuroscan) with 64 channels in the international 10-10 system, referenced to Cz. Stimulation employed joint frequency and phase modulation (JFPM) with 40 targets arranged in a 5×8 QWERTY keyboard. Frequencies ranged from 8.0 to 15.8 Hz with a 0.2 Hz step. Stimulation duration was 2 seconds for experienced subjects (S1-S15) and 3 seconds for naive subjects (S16-S70), plus a 0.5-second visual cue. Data were recorded at 1000 Hz and downsampled to 250 Hz. Each subject completed 4 blocks of 40 trials, with epochs of 3 seconds duration.",
+  "license": "Non-commercial research use",
+  "dataset_type": "derivative",
   "authors": {
     "Bingchuan Liu": {},
     "Xiaoshan Huang": {},
@@ -8,6 +13,34 @@
     "Xiaogang Chen": {},
     "Xiaorong Gao": {}
   },
+  "keywords": [
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "steady-state visual evoked potentials"
+    },
+    {
+      "term": "benchmark dataset"
+    },
+    {
+      "term": "joint frequency and phase modulation"
+    },
+    {
+      "term": "cued-spelling"
+    },
+    {
+      "term": "speller application"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.3389/fnins.2020.00627",
@@ -43,14 +76,11 @@
       "award_number": "61431007"
     }
   ],
-  "title": "BETA SSVEP benchmark dataset",
-  "license": "Non-commercial research use",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "3.0 GB (72 files)"
   ],
@@ -63,39 +93,5 @@
     ".yaml",
     ".yml"
   ],
-  "description": "The BETA SSVEP benchmark dataset comprises EEG recordings from 70 healthy subjects performing a cued-spelling task using steady-state visual evoked potential (SSVEP) brain-computer interface paradigm. The dataset includes 64-channel EEG data sampled at 250 Hz with 40 visual stimulus frequencies ranging from 8.0 to 15.8 Hz, designed to support benchmarking of SSVEP classification algorithms. This derivative dataset provides preprocessed, epoched data with standardized evaluation protocols including leave-one-block-out cross-validation for within-subject assessment.",
-  "methods_description": "EEG data were acquired using a Synamps2 system (Neuroscan) with 64 electrodes in standard 1005 montage, referenced to Cz, at 250 Hz sampling rate. Stimuli consisted of visual flickers at 40 different frequencies (8.0-15.8 Hz) presented for 3-second trials. Preprocessing included notch filtering at 50 Hz using zero-phase FIR filters and bandpass filtering (3-100 Hz). Data were organized into 4 blocks of 160 trials per subject in offline mode with visual feedback.",
-  "keywords": [
-    {
-      "term": "SSVEP"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "benchmark dataset"
-    },
-    {
-      "term": "visual evoked potentials"
-    },
-    {
-      "term": "JFPM"
-    },
-    {
-      "term": "frequency tagging"
-    },
-    {
-      "term": "speller"
-    },
-    {
-      "term": "cued-spelling"
-    },
-    {
-      "term": "BCI"
-    }
-  ],
-  "source_hash": "17d132de64b7299253c61bba6b6a3b785850176b2bcdc212a2003eed9e4c1c44"
+  "source_hash": "f5599823c6b3443d4170be643379a81cbbd3742db8a840232856cf673a81c35b"
 }
