@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000129-blue)](https://doi.org/10.82901/nemar.nm000129)
+
 # BETA SSVEP benchmark dataset
 
 BETA SSVEP benchmark dataset.
