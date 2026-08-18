@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Liu2020 – BETA SSVEP benchmark dataset",
-  "description": "The BETA SSVEP benchmark dataset comprises 64-channel EEG recordings from 70 healthy subjects performing a 40-target cued-spelling brain-computer interface task using steady-state visual evoked potentials (SSVEP). Recorded in a naturalistic classroom environment with joint frequency and phase modulation stimuli, this dataset provides a realistic benchmark for SSVEP-BCI applications with frequencies ranging from 8.0 to 15.8 Hz and 4 trials per target per subject.",
-  "methods_description": "EEG data were acquired using a Synamps2 amplifier (Neuroscan) with 64 channels in the international 10-10 system, referenced to Cz, and sampled at 1000 Hz then downsampled to 250 Hz. Stimulation duration was 2 seconds for experienced subjects (S1-S15) and 3 seconds for naive subjects (S16-S70), with a 0.5-second visual cue. Subjects completed 4 blocks of 40 trials each using a 5×8 QWERTY virtual keyboard with JFPM visual flicker stimuli.",
+  "description": "The BETA SSVEP benchmark dataset comprises 64-channel EEG recordings from 70 healthy subjects performing a 40-target cued-spelling brain-computer interface task using steady-state visual evoked potentials (SSVEP). Recorded in a naturalistic classroom environment using joint frequency and phase modulation stimuli, this dataset provides a realistic benchmark for SSVEP-BCI applications with frequencies ranging from 8.0 to 15.8 Hz and 4 trials per target per subject.",
+  "methods_description": "EEG data were acquired using a Synamps2 amplifier (Neuroscan) with 64 channels in the international 10-10 system, referenced to Cz, and sampled at 1000 Hz then downsampled to 250 Hz. Stimulation duration was 2 seconds for experienced subjects (S1-S15) and 3 seconds for naive subjects (S16-S70), with a 0.5-second visual cue. Stimuli employed joint frequency and phase modulation (JFPM) with 40 targets arranged in a 5×8 QWERTY keyboard layout. Each subject completed 4 blocks of 40 trials. Data were preprocessed with a 50 Hz notch filter and zero-phase FIR filtering.",
   "license": "Non-commercial research use",
   "dataset_type": "derivative",
   "authors": {
@@ -18,10 +18,10 @@
       "term": "SSVEP"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "EEG"
     },
     {
-      "term": "EEG"
+      "term": "brain-computer interface"
     },
     {
       "term": "benchmark dataset"
@@ -30,7 +30,10 @@
       "term": "visual evoked potentials"
     },
     {
-      "term": "frequency modulation"
+      "term": "joint frequency and phase modulation"
+    },
+    {
+      "term": "cued-spelling"
     }
   ],
   "related_identifiers": [
@@ -86,5 +89,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "29f8616afb236d6456e7c6d28cc0293092ed1c0de6959c6abefa606fcd9a1d0a"
+  "source_hash": "665f8591f037dd8a87163d85b8260669bb16b9a4b3172edcc2737c4aafe69cc3"
 }
